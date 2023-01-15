@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T11:33:02.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="3TugpraotXzf_gaid4Zu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-15T11:39:06.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="eQY5qr7i1hScC8OcNToD" type="github">
   <diagram id="fnPSyMXMoG7nJVuu_Msm" name="Страница 1">
     <mxGraphModel dx="880" dy="1621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,38 +12,38 @@
         <mxCell id="wb20SJSrFYorjm7Wo2vu-5" value="Пользователь" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="80" width="310" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wb20SJSrFYorjm7Wo2vu-6" value="+ знает как пользоваться умным домом: bool&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-5">
+        <mxCell id="wb20SJSrFYorjm7Wo2vu-6" value="Attributes:&#xa;+ знает как пользоваться умным домом: bool&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-5">
           <mxGeometry y="26" width="310" height="54" as="geometry" />
         </mxCell>
         <mxCell id="wb20SJSrFYorjm7Wo2vu-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-5">
           <mxGeometry y="80" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="wb20SJSrFYorjm7Wo2vu-8" value="+ учится_пользоваться_умным_домом: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-5">
+        <mxCell id="wb20SJSrFYorjm7Wo2vu-8" value="Operators:&#xa;+ учится_пользоваться_умным_домом: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-5">
           <mxGeometry y="88" width="310" height="52" as="geometry" />
         </mxCell>
         <mxCell id="wb20SJSrFYorjm7Wo2vu-13" value="Установщик оборудования" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="380" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wb20SJSrFYorjm7Wo2vu-14" value="+ опыт работы(лет): int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-13">
+        <mxCell id="wb20SJSrFYorjm7Wo2vu-14" value="Attributes:&#xa;+ опыт работы(лет): int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-13">
           <mxGeometry y="26" width="380" height="54" as="geometry" />
         </mxCell>
         <mxCell id="wb20SJSrFYorjm7Wo2vu-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-13">
           <mxGeometry y="80" width="380" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="wb20SJSrFYorjm7Wo2vu-16" value="+ установка_и_настройка_оборудования_умного_дома(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-13">
+        <mxCell id="wb20SJSrFYorjm7Wo2vu-16" value="Operators:&#xa;+ установка_и_настройка_оборудования_умного_дома(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-13">
           <mxGeometry y="88" width="380" height="52" as="geometry" />
         </mxCell>
         <mxCell id="wb20SJSrFYorjm7Wo2vu-17" value="Человек" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-120" width="240" height="140" as="geometry" />
+          <mxGeometry x="210" y="-160" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="wb20SJSrFYorjm7Wo2vu-18" value="+ имя: string&#xa;+ фамилия: string&#xa;+ возраст: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-17">
-          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        <mxCell id="wb20SJSrFYorjm7Wo2vu-18" value="Attributes:&#xa;+ имя: string&#xa;+ фамилия: string&#xa;+ возраст: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-17">
+          <mxGeometry y="26" width="240" height="74" as="geometry" />
         </mxCell>
         <mxCell id="wb20SJSrFYorjm7Wo2vu-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-17">
-          <mxGeometry y="80" width="240" height="8" as="geometry" />
+          <mxGeometry y="100" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="wb20SJSrFYorjm7Wo2vu-20" value="+ управление_умным_домом(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-17">
-          <mxGeometry y="88" width="240" height="52" as="geometry" />
+        <mxCell id="wb20SJSrFYorjm7Wo2vu-20" value="operators:&#xa;+ управление_умным_домом(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wb20SJSrFYorjm7Wo2vu-17">
+          <mxGeometry y="108" width="240" height="52" as="geometry" />
         </mxCell>
         <mxCell id="wb20SJSrFYorjm7Wo2vu-21" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;entryX=0.458;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.734;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wb20SJSrFYorjm7Wo2vu-13" target="wb20SJSrFYorjm7Wo2vu-20">
           <mxGeometry width="160" relative="1" as="geometry">
